@@ -197,16 +197,16 @@
 }
 
 /*Hero section*/
-.hero {
-    background-image: url(isi_photoshoot/IMG_0688.JPEG), url(isi_logos/ISI_logo_utenBakgrunn_BIG.png) ;
+.bg-img {
 
-    background-position: center center;
-
+    background-image: url("isi_photoshoot/IMG_0688.JPEG");
+    filter: blur(5px);
+    /*-webkit-filter: blur(5px);*/
+    height: 100%;
+    background-position: center;
     background-repeat: no-repeat;
-
-    background-attachment: fixed;
-
     background-size: cover;
+
 
 
     /*background-color: #cccccc;*/
