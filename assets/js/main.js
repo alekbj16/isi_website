@@ -72,3 +72,5 @@ sr.reveal(`.home__data, .home__img,
             .board__content, .contact__container`, {
     interval: 200
 })
+
+/* thanks to bedimcode*/
