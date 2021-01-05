@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ISI Website</title>
-    <link  rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- Navigation section-->
-    <nav class="navbar">
-        <div class="navbar__container">
-            <a href="#home" id="navbar__logo">ISI_logo</a>
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ISI Website</title>
+        <link  rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- Navigation section-->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="#home" id="navbar__logo">ISI_logo</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="#home" class="navbar__links" id="home-page">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#board" class="navbar__links" id="board-page">Board</a>
+                    </li>
+                    <li class="navbar__button">
+                        <a href="#contact" class="button" id="contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="#home" class="navbar__links" id="home-page">Home</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#board" class="navbar__links" id="board-page">Board</a>
-                </li>
-                <li class="navbar__button">
-                    <a href="#contact" class="button" id="contact">Contact</a>
-                </li>
-            </ul>
+        </nav>
+
+        <!--Hero Section-->
+        <div class="hero" id="home">
+            <div class="hero__container">
+                <p class="hero__description">Student orginization for master students at the Departement of Electrical Engineering and Computer Science at the University of Stavanger</p>
+            </div>
         </div>
-    </nav>
+    
+        <script src="app.js"></script>
+    </body>
 
 
-    <!-- Hero section-->
-    <div class="bg-img" id="home">
-        <div class="hero__container" id = home>
-            <p class="hero__description">Student orginization for master students at the Department of Electrical Engineering and Computer Science</p>
-        </div>  
-    </div>
-<script src="app.js"></script>
-</body>
 </html>
